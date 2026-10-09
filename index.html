@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="CYBERWORLD — find yourself, connect globally.">
+  <title>CYBERWORLD — Connect Globally</title>
+  <link rel="icon" href="assets/earth-logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="login-page">
+  <header class="topbar">
+    <a class="brand" href="index.html"><img src="assets/earth-logo.svg" alt=""><span>CYBER<span>WORLD</span></span></a>
+    <nav><a href="#features">Features</a><a href="#about">About</a><a class="nav-cta" href="signup.html">Create account</a></nav>
+  </header>
+  <main class="hero">
+    <section class="hero-copy" id="about">
+      <div class="globe-mark"><img src="assets/earth-logo.svg" alt="CYBERWORLD Earth logo"></div>
+      <h1>CYBER<span>WORLD</span></h1>
+      <h2>Find Yourself. Connect Globally.</h2>
+      <p>Meet people from every corner of the world. Share your story, watch videos, join live conversations, and build real connections.</p>
+      <div class="feature-row" id="features">
+        <div><b>◎</b><span>Discover<br>people</span></div><div><b>▤</b><span>Share<br>posts</span></div><div><b>▷</b><span>Watch<br>videos</span></div><div><b>◉</b><span>Go<br>live</span></div><div><b>▢</b><span>Message<br>friends</span></div>
+      </div>
+      <p class="motto">One world. One community.</p>
+    </section>
+    <section class="auth-card">
+      <h2>Welcome Back</h2><p class="muted">Log in to your CYBERWORLD account</p>
+      <form id="login-form">
+        <label class="field"><span>✉</span><input id="login-email" type="email" placeholder="Email address" autocomplete="email" required></label>
+        <label class="field"><span>♙</span><input id="login-password" type="password" placeholder="Password (demo only)" autocomplete="current-password" required></label>
+        <div class="form-meta"><label class="remember"><input type="checkbox"> Remember me</label><a href="#" id="forgot-link">Forgot password?</a></div>
+        <button class="primary-btn" type="submit">Log In <span>→</span></button>
+      </form>
+      <div class="or"><span></span>or<span></span></div>
+      <a class="outline-btn" href="#" id="github-demo">◉ &nbsp; Continue with GitHub</a>
+      <p class="signup-prompt">Don’t have an account? <a href="signup.html">Sign Up</a></p>
+      <p class="small-note">Demo interface only. Real accounts require secure authentication setup.</p>
+    </section>
+  </main>
+  <footer class="footer"><a class="brand small-brand" href="index.html"><img src="assets/earth-logo.svg" alt=""><span>CYBER<span>WORLD</span></span></a><span>One World · Real People · Endless Connections</span><a href="https://github.com/" target="_blank" rel="noopener">GitHub repository ↗</a></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="js/app.js"></script>
+</body></html>
